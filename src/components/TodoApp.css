@@ -3,7 +3,13 @@
     margin: 40px auto;
 }
 
-.todoCreateForm{
+.todosContainer{
+    width: min(600px, 80%);
+    margin: 0 auto;
+}
+
+.todoCreateForm,
+.todoUpdateForm{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +27,7 @@
 }
 
 .btn{
+    text-transform: uppercase;
     border: none;
     border-radius: 15px;
     color: white;
@@ -44,17 +51,18 @@
 .info{
     flex: 1;
     margin-right: 0 30px;
-    background-color: rgb(255,255,255);
     padding: 5px 10px;
-    border-radius: 10px;
+    border-bottom: 1px solid rgb(142, 138, 170);
+    font-size: 15px;
+    color: white;
 }
 
 .btnUpdate{
     padding: 8px 15px;
     background-color: rgb(195, 131, 255);
-    text-transform: uppercase;
 }
 
 .btnDelete{
     background-color: rgb(250, 62, 62);
 }
+

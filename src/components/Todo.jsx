@@ -31,7 +31,7 @@ export function Todo({ item, onUpdate, onDelete }) {
           onChange={handleChange}
           value={newValue}
         />
-        <button className="button" onClick={handleClickUpdateTodo}>
+        <button className="btnUpdate btn" onClick={handleClickUpdateTodo}>
           Update
         </button>
       </form>
